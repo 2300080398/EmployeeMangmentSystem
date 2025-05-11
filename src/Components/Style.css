@@ -1,0 +1,26 @@
+/* Add this to your main CSS file or in your style section */
+
+html, body {
+  height: 100%;
+  margin: 0; /* Reset default margin */
+}
+
+body {
+  /* Replace 'path-to-your-image.jpg' with the correct path or URL */
+  background-image: url('C:\expsix\expnine\src\Components\download.jpg');
+
+  /* Make sure the background covers the entire screen */
+  background-size: cover;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Prevent image from repeating */
+  background-repeat: no-repeat;
+
+  /* Optional: a solid background color for fallback or overlay effect */
+  background-color: #f0f0f0;
+
+  /* Optional: if you want a transparent overlay effect */
+  /* background-blend-mode: overlay; */
+}

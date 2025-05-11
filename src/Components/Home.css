@@ -1,0 +1,20 @@
+/* Home.css */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px); /* Adjust based on your layout */
+  text-align: center;
+  background-color: #f5f5f5;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+body, html {
+  height: 100%;
+  margin: 0; /* Reset default margin */
+  background-image: url('/background.jpg'); /* Use relative path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
